@@ -6,5 +6,10 @@
     "WhoAmI": {
       "main": "app/WhoAmI.mo"
     }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "vessel sources"
+    }
   }
 }

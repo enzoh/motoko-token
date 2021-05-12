@@ -6,7 +6,7 @@
  * Stability  : Experimental
  */
 
-import Hex "../vendor/motoko-hex/src/Hex";
+import Hex "mo:motoko-hex/Hex";
 import Util "../src/Util";
 
 actor WhoAmI {

@@ -9,7 +9,7 @@
 import Array "mo:base/Array";
 import AssocList "mo:base/AssocList";
 import Error "mo:base/Error";
-import Hex "../vendor/motoko-hex/src/Hex";
+import Hex "mo:motoko-hex/src/Hex";
 import List "mo:base/List";
 import Option "mo:base/Option";
 import Prim "mo:prim";
