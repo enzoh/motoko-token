@@ -11,5 +11,6 @@
     "build": {
       "packtool": "vessel sources"
     }
-  }
+  },
+  "dfx": "0.7.0-beta.8"
 }
