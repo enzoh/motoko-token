@@ -5,9 +5,9 @@ let Package =
 let
   -- This is where you can add your own packages to the package-set
   additions = [ { name = "motoko-hex"
-      , repo = "https://github.com/enzoh/motoko-hex"
-      , version = "master"
-      , dependencies = [] : List Text
+      , repo = "https://github.com/crusso/motoko-hex"
+      , version = "0.6"
+      , dependencies = ["base"] : List Text
       }
     ] : List Package
 
