@@ -7,10 +7,11 @@
  */
 
 import Iter "mo:base/Iter";
-import Prim "mo:prim";
+import Principal "mo:base/Principal";
+import Blob "mo:base/Blob";
 
 module Util {
-  public func unpack(principal : Principal) : [Word8] {
-    return Iter.toArray(Prim.blobOfPrincipal(principal).bytes());
+  public func unpack(principal : Principal) : [Nat8] {
+    return Blob.toArray(Principal.toBlob(principal));
   };
 };

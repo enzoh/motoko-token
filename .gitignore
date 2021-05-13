@@ -9,6 +9,5 @@
 
 # dfx temporary files
 .dfx/
-
-# vessel temporary files
-.vessel/
+build/
+.vessel
