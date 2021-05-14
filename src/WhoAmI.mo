@@ -6,15 +6,14 @@
  * Stability  : Experimental
  */
 
-import Hex "../vendor/motoko-hex/src/Hex";
+import Hex "mo:motoko-hex/Hex";
 import Util "../src/Util";
 
 actor WhoAmI {
 
   // Returns the identity of the caller in a human readable format.
-  public shared {
-    caller = caller;
-  } func whoami() : async Text {
+  public shared ({ caller = caller; }) func whoami() : async Text {
     return Hex.encode(Util.unpack(caller));
   };
+
 };
